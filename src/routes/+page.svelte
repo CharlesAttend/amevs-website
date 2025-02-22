@@ -1,2 +1,11 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script>
+	import Header from '$lib/component/Header.svelte';
+	import Hero from '$lib/section/Hero.svelte';
+	import SocialProof from '$lib/section/SocialProof.svelte';
+	import Footer from '$lib/component/Footer.svelte';
+</script>
+
+<Header />
+<Hero />
+<SocialProof />
+<Footer />
