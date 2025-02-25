@@ -14,8 +14,8 @@
         description="Quand j'ai reçu mon premier violon, j'ai senti que quelqu'un croyait en moi. Aujourd'hui, je peux enfin apprendre et rêver d'un avenir musical."
         name="Jean Dupont"
         location="Paris"
-        pp="https://cdn.discordapp.com/avatars/827596634795016192/3b8feee540eac53e98db7492658a5986.webp?size=2048&format=webp"
-      />
+        pp="https://thispersondoesnotexist.com/"
+s      />
       <RatingCard
         note="4"
         description="Grâce à cette association, j'ai un vrai piano pour m'entraîner. La musique me permet d'oublier les difficultés du quotidien et de me concentrer sur mon avenir."
