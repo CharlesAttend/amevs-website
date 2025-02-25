@@ -7,8 +7,9 @@
   import Vision from '$lib/section/Vision.svelte';
   import Projet from '$lib/section/Projet.svelte';
   import Statistiques from '$lib/section/Statistiques.svelte';
-    import Temoignage from '$lib/section/Temoignage.svelte';
-    import Membre from '$lib/section/Membre.svelte';
+  import Temoignage from '$lib/section/Temoignage.svelte';
+  import Membre from '$lib/section/Membre.svelte';
+  import Socials from '$lib/section/Socials.svelte';
 </script>
 
 <Header />
@@ -20,4 +21,5 @@
 <Statistiques />
 <Temoignage />
 <Membre />
+<Socials />
 <Footer />
