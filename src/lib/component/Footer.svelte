@@ -36,15 +36,13 @@
 		<h6 class="footer-title">Social</h6>
 		<div class="grid grid-flow-col gap-4">
 			{#each socials as social}
-			<a href={social.link} target="_blank">
-				<img
-				class="h-6 w-6"
-				src={social.logo}
-				alt={social.name}
-				/>
-			</a>
+				<a href={social.link} target="_blank">
+					<img class="h-6 w-6" src={social.logo} alt={social.name} />
+				</a>
 			{/each}
 		</div>
-		<a href="mentions-legales">Mentions légales</a>
+		<div class="my-5">
+			<a href="mentions-legales">Mentions légales</a>
+		</div>
 	</nav>
 </footer>
