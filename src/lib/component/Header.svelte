@@ -1,5 +1,5 @@
 <script>
-	import { scrollTo, scrollTop } from 'svelte-scrolling';
+  import { scrollTo, scrollTop } from 'svelte-scrolling';
 
   let mobile_open = $state(false);
   let menu_item = [
@@ -8,6 +8,9 @@
     { title: 'Réalisations', name: 'realisation' },
     { title: 'Nous suivre', name: 'socials' }
   ];
+  function closeMenu() {
+    mobile_open = false;
+  }
 </script>
 
 <header class="fixed z-10 w-full bg-white">
@@ -74,11 +77,7 @@
             alt=""
           />
         </a>
-        <button
-          type="button"
-          class="-m-2.5 rounded-md p-2.5 text-gray-700"
-          onclick={() => (mobile_open = false)}
-        >
+        <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700" onclick={closeMenu}>
           <span class="sr-only">Close menu</span>
           <svg
             class="size-6"
@@ -98,13 +97,14 @@
           <div class="space-y-2 py-6">
             <div class="-mx-3">
               {#each menu_item as item}
-                <button
+                <a
                   use:scrollTo={item.name}
-									onclick={() => (mobile_open = false)}
+                  onclick={closeMenu}
+                  href="#{item.name}"
                   class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                 >
-                  {item.title}
-                </button>
+                  {item.title} hey
+                </a>
               {/each}
             </div>
           </div>

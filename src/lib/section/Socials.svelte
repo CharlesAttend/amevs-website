@@ -1,5 +1,4 @@
 <script>
-  import { scrollRef } from 'svelte-scrolling';
   import logo_fb from '$lib/assets/facebook.svg';
   import logo_ig from '$lib/assets/instagram.svg';
   import logo_yt from '$lib/assets/youtube.svg';
@@ -12,7 +11,7 @@
   ];
 </script>
 
-<div class="hero bg-accent" use:scrollRef={'socials'}>
+<div id="socials" class="hero bg-accent">
   <div class="hero-content p-6 text-center">
     <div class="max-w-md">
       <h1 class="text-5xl font-bold">Suivez Nous !</h1>

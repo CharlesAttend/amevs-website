@@ -2,7 +2,7 @@
   import Card from '$lib/component/Card.svelte';
 </script>
 
-<div class="bg-base-200 hero min-h-screen">
+<div id="project" class="bg-base-200 hero min-h-screen">
   <div class="hero-content flex-col lg:flex-row">
     <div>
       <h1 class="text-5xl font-bold">Nos Projets</h1>
@@ -11,7 +11,7 @@
     <div class="flex flex-col items-center justify-center gap-4">
       <Card
         title="Concert en BU"
-        description="Tout au long de l’année académique, Sorbonne Université vibre au son de concerts variés offerts aux étudiants et au personnel, transformant chaque pause midi en un moment de détente et de découverte musicale."
+        description="Tout au long de l'année académique, Sorbonne Université vibre au son de concerts variés offerts aux étudiants et au personnel, transformant chaque pause midi en un moment de détente et de découverte musicale."
         img="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
       />
       <Card
