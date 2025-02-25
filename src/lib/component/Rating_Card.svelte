@@ -17,11 +17,11 @@
       {/each}
     </div> -->
     <div class="rating gap-1">
-      <div class="mask mask-heart bg-red-400" aria-label="1 star" aria-current="true" />
-      <div class="mask mask-heart bg-orange-400" aria-label="2 star" aria-current="true" />
-      <div class="mask mask-heart bg-yellow-400" aria-label="3 star" aria-current="true" />
-      <div class="mask mask-heart bg-lime-400" aria-label="4 star" aria-current="true" />
-      <div class="mask mask-heart bg-green-400" aria-label="5 star" aria-current="true" />
+      <div class="mask mask-heart bg-red-400" aria-label="1 star" aria-current="true"></div>
+      <div class="mask mask-heart bg-orange-400" aria-label="2 star" aria-current="true"></div>
+      <div class="mask mask-heart bg-yellow-400" aria-label="3 star" aria-current="true"></div>
+      <div class="mask mask-heart bg-lime-400" aria-label="4 star" aria-current="true"></div>
+      <div class="mask mask-heart bg-green-400" aria-label="5 star" aria-current="true"></div>
     </div>
     <p>
       {description}

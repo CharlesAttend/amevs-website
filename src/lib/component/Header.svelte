@@ -1,5 +1,5 @@
 <script>
-  import { scrollTo, scrollTop } from 'svelte-scrolling';
+  import { scrollTo } from 'svelte-scrolling';
 
   let mobile_open = $state(false);
   let menu_item = [
@@ -51,7 +51,11 @@
     </div>
     <div class="hidden lg:flex lg:gap-x-12">
       {#each menu_item as item}
-        <a href={item.link} class="text-sm/6 font-semibold text-gray-900">{item.title}</a>
+        <a
+          href="#{item.name}"
+          use:scrollTo={item.name}
+          class="text-sm/6 font-semibold text-gray-900">{item.title}</a
+        >
       {/each}
     </div>
     <!-- <div class="hidden lg:flex lg:flex-1 lg:justify-end">
@@ -103,7 +107,7 @@
                   href="#{item.name}"
                   class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                 >
-                  {item.title} hey
+                  {item.title}
                 </a>
               {/each}
             </div>

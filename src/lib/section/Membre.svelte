@@ -17,7 +17,7 @@
       />
       <MemberCard
         name="Sohann"
-        role="Responsable communiquation"
+        role="Responsable communication"
         status="Étudiante"
         pp="https://media-cdg4-1.cdn.whatsapp.net/v/t61.24694-24/413127217_391166153360852_5362753401083869385_n.jpg?ccb=11-4&oh=01_Q5AaIKJzWH5O6hSrSi9A9iNejAis3ImjGa6aWdplKnfH-kTY&oe=67CAB2AB&_nc_sid=5e03e0&_nc_cat=102"
       />
