@@ -15,9 +15,10 @@
       <h2 class="card-title text-2xl">{name}</h2>
       <p class="my-2 flex flex-col gap-1">
         <!-- <span class="text-gray-500">Role :</span> -->
-        <span class="col-span-2">{role}</span>
+        <span>{role}</span>
+        <span class="divider m-0"></span>
         <!-- <span class="text-gray-500">Status :</span> -->
-        <span class="col-span-2">{status}</span>
+        <span>{status}</span>
       </p>
     </div>
   </div>
