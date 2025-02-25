@@ -2,13 +2,13 @@
   import MemberCard from '$lib/component/Member_Card.svelte';
 </script>
 
-<div class="bg-base-200 hero min-h-dvh">
-  <div class="hero-content flex-col lg:flex-row">
+<div class="bg-base-200 hero min-h-dvh lg:min-h-auto lg:p-16">
+  <div class="hero-content flex-col">
     <div>
       <h1 class="text-5xl font-bold">Membres de l'association</h1>
       <!-- <button>Vois tous nos projets</button> -->
     </div>
-    <div class="grid grid-rows-4 gap-4">
+    <div class="grid grid-rows-4 gap-4 lg:grid-cols-2 lg:grid-rows-2">
       <MemberCard
         name="Jéricho Pierre-Noël"
         role="Président"
@@ -34,6 +34,6 @@
         pp="https://media.licdn.com/dms/image/v2/D4E03AQEFvUHhIiNyxw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1730800820307?e=1746057600&v=beta&t=Q6W3rlK784SfuWYbfOen_a2pSQJFmdSQqsRAAB2oGak"
       />
     </div>
-    <button class="btn btn-primary">Voir tous les membres</button>
+    <button class="btn btn-primary btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl">Voir tous les membres</button>
   </div>
 </div>

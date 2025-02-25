@@ -11,11 +11,11 @@
   ];
 </script>
 
-<div id="socials" class="hero bg-accent">
+<div id="socials" class="hero bg-accent lg:min-h-auto lg:p-16">
   <div class="hero-content p-6 text-center">
     <div class="max-w-md">
       <h1 class="text-5xl font-bold">Suivez Nous !</h1>
-      <p class="py-6">
+      <p class="py-6 lg:text-lg">
         Restez au courant des dernières nouvelles et des événements qui nous concernent en nous
         suivant sur les réseaux sociaux.
       </p>

@@ -3,12 +3,12 @@
 </script>
 
 <div id="project" class="bg-base-200 hero min-h-dvh">
-  <div class="hero-content flex-col lg:flex-row">
-    <div>
+  <div class="hero-content flex-col">
+    <div class="w-full lg:mb-8 lg:flex lg:justify-between lg:self-start">
       <h1 class="text-5xl font-bold">Nos Projets</h1>
-      <!-- <button>Vois tous nos projets</button> -->
+      <a class="btn-lg btn btn-primary hidden lg:inline content-center">Voir tous nos projets</a>
     </div>
-    <div class="flex flex-col items-center justify-center gap-4">
+    <div class="flex grow basis-0 flex-col items-center justify-center gap-4 lg:flex-row">
       <Card
         title="Concert en BU"
         description="Tout au long de l'année académique, Sorbonne Université vibre au son de concerts variés offerts aux étudiants et au personnel, transformant chaque pause midi en un moment de détente et de découverte musicale."
@@ -25,6 +25,6 @@
         img="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
       />
     </div>
+    <a class="btn-lg btn btn-primary lg:hidden">Voir tous nos projets</a>
   </div>
-  <!-- <button>Vois tous nos projets</button> -->
 </div>

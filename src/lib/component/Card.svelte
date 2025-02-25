@@ -9,9 +9,9 @@
   // w-96
 </script>
 
-<div class="card-sm bg-base-100 shadow-sm">
+<div class="card-sm bg-base-100 shadow-sm lg:card-lg w-full h-full">
   <figure>
-    <img src={img} alt={title} />
+    <img class="" src={img} alt={title} />
   </figure>
   <div class="card-body">
     <h2 class="card-title">{title}</h2>

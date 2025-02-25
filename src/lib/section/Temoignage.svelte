@@ -2,13 +2,12 @@
   import RatingCard from '$lib/component/Rating_Card.svelte';
 </script>
 
-<div class="bg-base-200 hero min-h-dvh">
-  <div class="hero-content flex-col lg:flex-row">
+<div class="bg-base-200 hero min-h-dvh lg:min-h-auto lg:p-16">
+  <div class="hero-content flex-col">
     <div>
       <h1 class="text-5xl font-bold">Témoignages</h1>
-      <!-- <button>Vois tous nos projets</button> -->
     </div>
-    <div class="flex flex-col items-center justify-center gap-4">
+    <div class="flex grow basis-0 flex-col items-center justify-center gap-4 lg:flex-row">
       <RatingCard
         note="5"
         description="Quand j'ai reçu mon premier violon, j'ai senti que quelqu'un croyait en moi. Aujourd'hui, je peux enfin apprendre et rêver d'un avenir musical."
@@ -32,5 +31,4 @@
       />
     </div>
   </div>
-  <!-- <button>Vois tous nos projets</button> -->
 </div>

@@ -1,10 +1,10 @@
-<div class="hero min-h-dvh bg-amber-300 text-black">
-  <div class="hero-content flex-col lg:flex-row">
+<div class="hero min-h-dvh bg-accent lg:min-h-auto lg:p-16">
+  <div class="hero-content flex-col lg:flex-row lg:max-w-auto lg:item-stretch">
     <img
       src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
-      class="max-w-sm rounded-full shadow-2xl"
+      class="max-w-sm rounded-full shadow-2xl lg:w-1/2 lg:max-w-auto"
     />
-    <div class="flex flex-col items-start justify-start gap-6">
+    <div class="flex flex-col items-start justify-start gap-6 lg:p-20 lg:w-1/2">
       <h1 class="text-5xl font-bold">Notre vision</h1>
       <p class="">
         Être un acteur clé du rayonnement mondial de la culture, offrant aux jeunes une vie

@@ -1,2 +1,22 @@
 @import 'tailwindcss';
-@plugin "daisyui";
+@plugin "daisyui" {
+  /* themes: light --default, dark --prefersdark; */
+  themes: light --default;
+}
+@plugin "daisyui/theme" {
+  name: "light";
+  default: true;
+  --color-primary: oklch(57.18% 0.1463 246.13);
+  --color-secondary: #b1040c;
+  --color-accent: #f3c623;
+}
+/* TODO fix theme and theme export, it does export both theme, no overide */
+
+/* Make all button responsive */
+.btn {
+  @apply btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl;
+}
+
+p span {
+  @apply text-base lg:text-lg;
+}

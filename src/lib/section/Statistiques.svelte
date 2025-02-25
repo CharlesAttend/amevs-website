@@ -1,5 +1,5 @@
-<div id="realisation" class="hero bg-base-100 min-h-dvh">
-  <div class="hero-content flex-col lg:flex-row">
+<div id="realisation" class="hero bg-base-100 min-h-dvh lg:min-h-auto lg:p-16">
+  <div class="hero-content flex-col lg:gap-16">
     <h1 class="text-5xl font-bold">Quelques Statistiques</h1>
     <div class="stats stats-vertical lg:stats-horizontal shadow">
       <div class="stat">
