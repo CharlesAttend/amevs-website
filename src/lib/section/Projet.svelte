@@ -2,7 +2,7 @@
   import Card from '$lib/component/Card.svelte';
 </script>
 
-<div id="project" class="bg-base-200 hero min-h-screen">
+<div id="project" class="bg-base-200 hero min-h-dvh">
   <div class="hero-content flex-col lg:flex-row">
     <div>
       <h1 class="text-5xl font-bold">Nos Projets</h1>

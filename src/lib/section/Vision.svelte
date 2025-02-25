@@ -1,4 +1,4 @@
-<div class="hero min-h-screen bg-amber-300 text-black">
+<div class="hero min-h-dvh bg-amber-300 text-black">
   <div class="hero-content flex-col lg:flex-row">
     <img
       src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"

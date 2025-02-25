@@ -2,7 +2,7 @@
   import MemberCard from '$lib/component/Member_Card.svelte';
 </script>
 
-<div class="bg-base-200 hero min-h-screen">
+<div class="bg-base-200 hero min-h-dvh">
   <div class="hero-content flex-col lg:flex-row">
     <div>
       <h1 class="text-5xl font-bold">Membres de l'association</h1>

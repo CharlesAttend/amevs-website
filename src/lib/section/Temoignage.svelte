@@ -2,7 +2,7 @@
   import RatingCard from '$lib/component/Rating_Card.svelte';
 </script>
 
-<div class="bg-base-200 hero min-h-screen">
+<div class="bg-base-200 hero min-h-dvh">
   <div class="hero-content flex-col lg:flex-row">
     <div>
       <h1 class="text-5xl font-bold">Témoignages</h1>
@@ -15,7 +15,7 @@
         name="Jean Dupont"
         location="Paris"
         pp="https://thispersondoesnotexist.com/"
-s      />
+      />
       <RatingCard
         note="4"
         description="Grâce à cette association, j'ai un vrai piano pour m'entraîner. La musique me permet d'oublier les difficultés du quotidien et de me concentrer sur mon avenir."
