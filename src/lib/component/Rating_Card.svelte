@@ -7,15 +7,21 @@
     pp = ''
   } = $props();
   let stars = Array.from({ length: note }, (_, i) => i < note);
-  import star_svg from '$lib/assets/star.svg';
 </script>
 
 <div class="card bg-base-200 shadow-lg">
   <div class="card-body">
-    <div class="badge badge-primary p-1">
+    <!-- <div class="badge badge-primary p-1">
       {#each stars as star}
         <img class="h-full" src={star_svg} alt="star" />
       {/each}
+    </div> -->
+    <div class="rating gap-1">
+      <div class="mask mask-heart bg-red-400" aria-label="1 star" aria-current="true" />
+      <div class="mask mask-heart bg-orange-400" aria-label="2 star" aria-current="true" />
+      <div class="mask mask-heart bg-yellow-400" aria-label="3 star" aria-current="true" />
+      <div class="mask mask-heart bg-lime-400" aria-label="4 star" aria-current="true" />
+      <div class="mask mask-heart bg-green-400" aria-label="5 star" aria-current="true" />
     </div>
     <p>
       {description}
