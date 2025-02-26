@@ -2,7 +2,7 @@
   import img from '$lib/assets/illustrations/vision.jpg';
 </script>
 
-<div class="hero min-h-dvh bg-accent text-accent-content lg:min-h-auto lg:p-16">
+<div class="hero min-h-dvh bg-secondary text-secondary-content lg:min-h-auto lg:p-16">
   <div class="hero-content flex-col lg:flex-row lg:max-w-auto lg:item-stretch">
     <img
       src={img}

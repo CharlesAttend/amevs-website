@@ -9,7 +9,7 @@
   let stars = Array.from({ length: note }, (_, i) => i < note);
 </script>
 
-<div class="card bg-base-200 shadow-lg w-full h-full">
+<div class="card bg-base-100 shadow-lg w-full h-full">
   <div class="card-body lg:gap-4">
     <!-- <div class="badge badge-primary p-1">
       {#each stars as star}

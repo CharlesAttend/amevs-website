@@ -6,9 +6,11 @@
 @plugin "daisyui/theme" {
   name: "light";
   default: true;
-  --color-primary: oklch(57.18% 0.1463 246.13);
-  --color-secondary: #b1040c;
-  --color-accent: #f3c623;
+  --color-primary: oklch(57.18% 0.1463 246.13); /* #047DC8 */
+  --color-secondary: oklch(48.24% 0.1914 21.38); /* #B10629 */
+  --color-accent: #FAA275 ; /* #FAA275 */
+  --color-accent-content: white ; /* #000000 */
+  --color-neutral: oklch(24.98% 0.0733 251.33); /* #002243 */
 }
 /* TODO fix theme and theme export, it does export both theme, no overide */
 
@@ -20,3 +22,4 @@
 p span {
   @apply text-base lg:text-lg;
 }
+
