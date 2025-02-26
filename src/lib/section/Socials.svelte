@@ -9,6 +9,8 @@
     { name: 'Facebook', logo: logo_fb, link: 'http://facebook.com/AMEVS.SU' },
     { name: 'HelloAsso', logo: logo_ha, link: 'https://www.helloasso.com/associations/amevs' }
   ];
+  console.log("test");
+  
 </script>
 
 <div id="socials" class="hero bg-secondary text-secondary-content lg:min-h-auto lg:p-16">
@@ -20,7 +22,7 @@
         suivant sur les réseaux sociaux.
       </p>
       <div class="grid grid-cols-4 content-stretch items-stretch gap-4">
-        {#each socials as social}
+        <!-- {#each socials as social}
           <button class="btn btn-primary h-full w-full p-4">
             <a href={social.link} target="_blank">
               <img
@@ -30,7 +32,7 @@
               />
             </a>
           </button>
-        {/each}
+        {/each} -->
       </div>
     </div>
   </div>
