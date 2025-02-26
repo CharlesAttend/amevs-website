@@ -11,7 +11,7 @@
   ];
 </script>
 
-<div id="socials-links" class="hero bg-secondary text-secondary-content lg:min-h-auto lg:p-16">
+<div id="socialslinks" class="hero bg-secondary text-secondary-content lg:min-h-auto lg:p-16">
   <div class="hero-content p-6 text-center">
     <div class="max-w-md">
       <h1 class="text-5xl font-bold">Suivez Nous !</h1>
@@ -20,7 +20,7 @@
         suivant sur les réseaux sociaux.
       </p>
       <div class="grid grid-cols-4 content-stretch items-stretch gap-4">
-        <!-- {#each socials as social}
+        {#each socials as social}
           <button class="btn btn-primary h-full w-full p-4">
             <a href={social.link} target="_blank">
               <img
@@ -30,7 +30,7 @@
               />
             </a>
           </button>
-        {/each} -->
+        {/each}
       </div>
     </div>
   </div>
