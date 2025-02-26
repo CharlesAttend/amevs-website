@@ -20,7 +20,7 @@
         suivant sur les réseaux sociaux.
       </p>
       <div class="grid grid-cols-4 content-stretch items-stretch gap-4">
-        {#each socials as social}
+        {#each socials_btn as social}
           <button class="btn btn-primary h-full w-full p-4">
             <a href={social.link} target="_blank">
               <img
