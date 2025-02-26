@@ -12,7 +12,7 @@
     <div class="flex">
       <a href="/" class="p-1.5">
         <span class="sr-only">AMEVS</span>
-        <LogoAmevs classAttributes="fill-current w-12"/>
+        <LogoAmevs classAttributes="fill-current w-8"/>
       </a>
     </div>
     <div class="breadcrumbs text-sm s">

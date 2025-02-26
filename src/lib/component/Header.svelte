@@ -1,5 +1,6 @@
 <script>
   import { scrollTo } from 'svelte-scrolling';
+  import LogoAmevs from '$lib/assets/logos/logo_amevs.svelte';
 
   let mobile_open = $state(false);
   let menu_item = [
@@ -13,16 +14,12 @@
   }
 </script>
 
-<header class="fixed z-10 w-full bg-white">
+<header class="bg-base-100 fixed z-10 w-full">
   <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
     <div class="flex lg:flex-1">
-      <a href="/" class="-m-1.5 p-1.5">
+      <a href="/" class="p-1.5">
         <span class="sr-only">AMEVS</span>
-        <img
-          class="h-8 w-auto"
-          src="https://tailwindui.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600"
-          alt=""
-        />
+        <LogoAmevs classAttributes="fill-current w-8" />
       </a>
     </div>
     <div class="flex lg:hidden">
@@ -70,16 +67,12 @@
     <!-- Background backdrop, show/hide based on slide-over state. -->
     <div class="fixed inset-0 z-10"></div>
     <div
-      class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10"
+      class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-base-100 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10"
     >
       <div class="flex items-center justify-between">
-        <a href="#" class="-m-1.5 p-1.5">
+        <a href="/" class="p-1.5">
           <span class="sr-only">AMEVS</span>
-          <img
-            class="h-8 w-auto"
-            src="https://tailwindui.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600"
-            alt=""
-          />
+          <LogoAmevs classAttributes="fill-current w-8" />
         </a>
         <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700" onclick={closeMenu}>
           <span class="sr-only">Close menu</span>
