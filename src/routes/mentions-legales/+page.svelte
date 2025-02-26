@@ -4,7 +4,7 @@
 </script>
 
 <HeaderSubPage />
-<div class="flex min-h-dvh flex-col gap-4 p-16">
+<div class="flex min-h-dvh flex-col gap-4 p-16 bg-base-200">
 	<h1 class="text-5xl">Mentions légales</h1>
   <div>
     <p>
