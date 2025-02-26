@@ -9,10 +9,10 @@
     { name: 'Facebook', logo: logo_fb, link: 'http://facebook.com/AMEVS.SU' },
     { name: 'HelloAsso', logo: logo_ha, link: 'https://www.helloasso.com/associations/amevs' }
   ];
-  console.log("test");
-  
+  console.log('test');
 </script>
-<div>
+
+<div id="socials" class="hero bg-secondary text-secondary-content lg:min-h-auto lg:p-16">
   HELLOOOOO
 </div>
 <div id="socials" class="hero bg-secondary text-secondary-content lg:min-h-auto lg:p-16">
