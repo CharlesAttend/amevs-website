@@ -18,7 +18,7 @@
 	</p>
 	<h2 class="text-2xl">Hébergement</h2>
 	<p>
-		Le site amevs.fr est hébergé par <a href="cloudflare.com" class="link"></a>Cloudflare, Inc. 101
+		Le site amevs.fr est hébergé par <a href="cloudflare.com" class="link">Cloudflare</a>, Inc. 101
 		Townsend St, San Francisco, CA 94107 USA
 	</p>
 </div>
