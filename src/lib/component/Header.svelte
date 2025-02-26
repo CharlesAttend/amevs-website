@@ -6,7 +6,7 @@
     { title: 'Présentation', name: 'presentation' },
     { title: 'Projets', name: 'project' },
     { title: 'Réalisations', name: 'realisation' },
-    { title: 'Nous suivre', name: 'socials' }
+    { title: 'Nous suivre', name: 'socialsdasda' }
   ];
   function closeMenu() {
     mobile_open = false;
