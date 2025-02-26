@@ -3,7 +3,7 @@
   import logo_ig from '$lib/assets/logos/instagram.svg';
   import logo_yt from '$lib/assets/logos/youtube_primary.svg';
   import logo_ha from '$lib/assets/logos/helloasso.svg';
-  const socials = [
+  const socials_btn = [
     { name: 'Youtube', logo: logo_yt, link: 'http://youtube.com/@amevssorbonneuniversite' },
     { name: 'Instagram', logo: logo_ig, link: 'https://www.instagram.com/amevs_su' },
     { name: 'Facebook', logo: logo_fb, link: 'http://facebook.com/AMEVS.SU' },
@@ -12,7 +12,7 @@
   console.log('test');
 </script>
 
-<div id="socials-links" class="hero bg-secondary text-secondary-content lg:min-h-auto lg:p-16">
+<div id="socials" class="hero bg-secondary text-secondary-content lg:min-h-auto lg:p-16">
   <div class="hero-content p-6 text-center">
     <div class="max-w-md">
       <h1 class="text-5xl font-bold">Suivez Nous !</h1>
