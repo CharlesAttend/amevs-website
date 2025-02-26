@@ -1,4 +1,9 @@
 <script>
+  import { setGlobalOptions } from 'svelte-scrolling';
+  setGlobalOptions({
+    offset: -75,
+  });
+
   import Header from '$lib/component/Header.svelte';
   import Hero from '$lib/section/Hero.svelte';
   import SocialProof from '$lib/section/SocialProof.svelte';
