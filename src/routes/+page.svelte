@@ -12,14 +12,16 @@
   import Socials from '$lib/section/Socials.svelte';
 </script>
 
-<Header />
-<Hero />
-<SocialProof />
-<Presentation />
-<Vision />
-<Projet />
-<Statistiques />
-<Temoignage />
-<Membre />
-<Socials />
-<Footer />
+<div class="overflow-x-hidden">
+  <Header />
+  <Hero />
+  <SocialProof />
+  <Presentation />
+  <Vision />
+  <Projet />
+  <Statistiques />
+  <Temoignage />
+  <Membre />
+  <Socials />
+  <Footer />
+</div>
