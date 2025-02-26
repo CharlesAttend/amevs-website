@@ -12,8 +12,7 @@
   console.log('test');
 </script>
 
-<div class="hero bg-secondary text-secondary-content lg:min-h-auto lg:p-16">HELLOOOOO</div>
-<div id="socials" class="hero bg-secondary text-secondary-content lg:min-h-auto lg:p-16">
+<div id="socials-links" class="hero bg-secondary text-secondary-content lg:min-h-auto lg:p-16">
   <div class="hero-content p-6 text-center">
     <div class="max-w-md">
       <h1 class="text-5xl font-bold">Suivez Nous !</h1>
