@@ -12,7 +12,7 @@
   console.log('test');
 </script>
 
-<div id="socials" class="hero bg-secondary text-secondary-content lg:min-h-auto lg:p-16">
+<div id="socials" class="hero min-h-dvh bg-secondary text-secondary-content lg:min-h-auto lg:p-16">
   HELLOOOOO
 </div>
 <div id="socials" class="hero bg-secondary text-secondary-content lg:min-h-auto lg:p-16">
