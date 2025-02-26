@@ -1,7 +1,7 @@
 <script>
-  import logo_su from '$lib/assets/Logo_of_Sorbonne_University.svg';
-  import logo_inst2france from '$lib/assets/Institut_de_France_logo.svg';
-  import logo_orchestre_ecole from '$lib/assets/logo-oae_RVB.svg';
+  import logo_su from '$lib/assets/logos/Logo_of_Sorbonne_University.svg';
+  import logo_inst2france from '$lib/assets/logos/Institut_de_France_logo.svg';
+  import logo_orchestre_ecole from '$lib/assets/logos/logo-oae_RVB.svg';
 </script>
 
 <div class="hero bg-base-100 min-h-fit">

@@ -1,8 +1,8 @@
 <script>
-	import logo_fb from '$lib/assets/facebook.svg';
-	import logo_ig from '$lib/assets/instagram.svg';
-	import logo_yt from '$lib/assets/youtube.svg';
-	import logo_ha from '$lib/assets/helloasso.svg';
+	import logo_fb from '$lib/assets/logos/facebook.svg';
+	import logo_ig from '$lib/assets/logos/instagram.svg';
+	import logo_yt from '$lib/assets/logos/youtube_neutral.svg';
+	import logo_ha from '$lib/assets/logos/helloasso.svg';
 	const socials = [
 		{ name: 'Youtube', logo: logo_yt, link: 'http://youtube.com/@amevssorbonneuniversite' },
 		{ name: 'Instagram', logo: logo_ig, link: 'https://www.instagram.com/amevs_su' },

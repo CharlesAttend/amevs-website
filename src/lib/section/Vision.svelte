@@ -1,7 +1,12 @@
+<script>
+  import img from '$lib/assets/illustrations/vision.jpg';
+</script>
+
 <div class="hero min-h-dvh bg-accent lg:min-h-auto lg:p-16">
   <div class="hero-content flex-col lg:flex-row lg:max-w-auto lg:item-stretch">
     <img
-      src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
+      src={img}
+      alt="Jeune fille souriante jouant du violon"
       class="max-w-sm rounded-full shadow-2xl lg:w-1/2 lg:max-w-auto"
     />
     <div class="flex flex-col items-start justify-start gap-6 lg:p-20 lg:w-1/2">

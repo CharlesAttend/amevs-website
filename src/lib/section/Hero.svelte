@@ -1,5 +1,5 @@
 <script>
-	import violonist from '$lib/assets/violonist.jpg';
+	import violonist from '$lib/assets/illustrations/hero.jpg';
 </script>
 
 <div class="hero min-h-dvh" style="background-image: url({violonist});">
