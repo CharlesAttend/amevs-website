@@ -101,14 +101,13 @@
           <div class="space-y-2 py-6">
             <div class="-mx-3">
               {#each menu_item as item}
-                <a
+                <button
                   use:scrollTo={item.name}
                   onclick={closeMenu}
-                  href="#{item.name}"
                   class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                 >
                   {item.title}
-                </a>
+                </button>
               {/each}
             </div>
           </div>

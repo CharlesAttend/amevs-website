@@ -2,6 +2,7 @@
   import { setGlobalOptions } from 'svelte-scrolling';
   setGlobalOptions({
     offset: -75,
+    passive: true
   });
 
   import Header from '$lib/component/Header.svelte';
